@@ -1,0 +1,1 @@
+cd WatermelonDB/examples/native

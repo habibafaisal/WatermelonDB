@@ -9,7 +9,7 @@ import Post from './src/components/Post';
 import ModerationQueue from './src/components/ModerationQueue';
 
 const Stack = createStackNavigator();
-
+//testing
 const App = () => {
   const appStartedLaunchingAt = NativeModules.PerformancePlugin.appInitTimestamp;
   const [timeToLaunch] = React.useState(new Date().getTime() - appStartedLaunchingAt);
